@@ -17,7 +17,9 @@ const App = () => {
   };
   return (
     <div className="main-container">
+      <label for="search">Search</label>
       <input
+        id="search"
         type="text"
         className="search"
         placeholder="Search..."
